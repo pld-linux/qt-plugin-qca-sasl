@@ -11,6 +11,7 @@ Group:		Libraries
 Source0:	http://delta.affinix.com/qca/%{rname}-1.0.tar.bz2
 # Source0-md5:	2e324cb45706f37a8d2b196f43428023
 URL:		http://delta.affinix.com/qca/
+BuildRequires:	cyrus-sasl-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	qt-devel >= 3.1.2
