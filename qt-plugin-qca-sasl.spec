@@ -1,7 +1,7 @@
 %define		rname qca-sasl
 #
 Summary:	Qt Cryptographic Architecture (QCA) SASL plugin
-Summary(pl):	Wtyczka SASL dla Qt Cryptographic Architecture (QCA)
+Summary(pl.UTF-8):   Wtyczka SASL dla Qt Cryptographic Architecture (QCA)
 Name:		qt-plugin-%{rname}
 Version:	1.0
 Release:	3
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A plugin to provide SASL capability to programs that utilize the Qt
 Cryptographic Architecture (QCA).
 
-%description -l pl
-Wtyczka pozwalaj±ca wykorzystaæ mo¿liwo¶ci SASL w programach
-korzystaj±cych z Qt Cryptographic Architecture (QCA).
+%description -l pl.UTF-8
+Wtyczka pozwalajÄ…ca wykorzystaÄ‡ moÅ¼liwoÅ›ci SASL w programach
+korzystajÄ…cych z Qt Cryptographic Architecture (QCA).
 
 %prep
 %setup -qn %{rname}-%{version}
