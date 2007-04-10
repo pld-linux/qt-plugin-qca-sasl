@@ -14,7 +14,7 @@ URL:		http://delta.affinix.com/qca/
 BuildRequires:	cyrus-sasl-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel >= 0.9.7d
-BuildRequires:	qt-devel >= 3.1.2
+BuildRequires:	qt-devel >= 6:3.1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir %{_libdir}/qt/plugins-mt/crypto
