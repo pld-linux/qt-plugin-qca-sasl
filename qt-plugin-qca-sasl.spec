@@ -4,7 +4,7 @@ Summary:	Qt Cryptographic Architecture (QCA) SASL plugin
 Summary(pl.UTF-8):	Wtyczka SASL dla Qt Cryptographic Architecture (QCA)
 Name:		qt-plugin-%{rname}
 Version:	1.0
-Release:	3
+Release:	4
 Epoch:		1
 License:	LGPL v2.1
 Group:		Libraries
